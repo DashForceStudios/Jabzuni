@@ -1,0 +1,38 @@
+/// player.handle_user_input
+
+key_left = -keyboard_check(vk_left);
+key_right = keyboard_check(vk_right);
+key_jump = keyboard_check_pressed(vk_space);
+
+// React to keypresses
+player_hmove = key_left + key_right;
+
+// Handle jumping
+/// Various handlers
+
+// Ground collision handling
+if (place_meeting(x, y + vspeed, obj_wall)){
+  gravity = 0;
+  while (!place_meeting(x, y + 1, obj_wall)){
+    y += sign(vspeed);
+  }
+  vspeed = 0;
+}
+
+// If the enemy isn't on the floor, turn on gravity
+if (!place_meeting(x - 1, y + 1, obj_wall) && vspeed < 1) {
+  gravity = default_gravity;
+}
+
+// Wall collision handling
+if (place_meeting(x + hspeed, y - 1, obj_wall)){
+    while (!place_meeting(x + sign(hspeed), y - 1, obj_wall)){
+      x += sign(hspeed);
+    }
+    hspeed *= -1;
+}
+
+// Handling for walking off ledges
+if (!walks_off_ledges && !place_meeting(x + (sprite_width * sign(hspeed)), y + (sprite_height / 2) + 1, obj_wall)){
+  hspeed *= -1;
+}
