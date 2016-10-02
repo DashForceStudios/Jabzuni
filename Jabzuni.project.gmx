@@ -12,6 +12,7 @@
     <sprite>sprites\spr_walker</sprite>
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\sprite4</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
