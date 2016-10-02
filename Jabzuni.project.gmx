@@ -12,7 +12,7 @@
     <sprite>sprites\spr_walker</sprite>
     <sprite>sprites\spr_menu</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\spr_spike</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -28,6 +28,7 @@
     <object>objects\obj_walker</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_mayonaise_the_hero</object>
+    <object>objects\obj_spike</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
