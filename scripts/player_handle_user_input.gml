@@ -23,11 +23,9 @@ if (vertical_speed < 10){
 
 if (place_meeting(x, y+1, obj_wall)){
     vertical_speed = key_jump * -jumpspeed;
-}
-
-// Play jump sound
-if(key_jump) {
-    audio_play_sound(smb_jump, 10, false);
+    if(key_jump) {
+        audio_play_sound(smb_jump, 10, false);
+    }
 }
 
 // floor collision handling
