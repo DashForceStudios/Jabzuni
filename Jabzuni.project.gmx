@@ -19,6 +19,7 @@
   <scripts name="scripts">
     <script>scripts\player_handle_user_input.gml</script>
     <script>scripts\player_initialize_variables.gml</script>
+    <script>scripts\scr_player_death.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
