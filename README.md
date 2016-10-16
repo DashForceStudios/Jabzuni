@@ -41,17 +41,13 @@ Fall into pit, run out of HP / be touched by enemy
 
 ## Credits  
 
-**Gini**  
-Art, assets, sprites
+**Programming and level design**  
+Joshua and Anthony
 
-**Joshua**  
-Game loop and mechanics
+**Sound / music**  
+Bernie
 
-**Bernie**  
-Sound / music
-
-**Anthony**  
-Mechanics, level design
-
+**Art**  
+Gini
 
 ## Absolute release date is October 18th. 
