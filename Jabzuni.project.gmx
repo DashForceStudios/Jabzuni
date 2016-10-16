@@ -6,13 +6,20 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\smb_jump</sound>
+    <sound>sound\snd_portal</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_walker</sprite>
     <sprite>sprites\spr_menu</sprite>
+    <sprite>sprites\spr_lvl_2</sprite>
+    <sprite>sprites\spr_lvl_3</sprite>
+    <sprite>sprites\spr_win</sprite>
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_portal</sprite>
+    <sprite>sprites\spr_game_over</sprite>
+    <sprite>sprites\spr_jabzuni</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,10 +37,23 @@
     <object>objects\obj_menu</object>
     <object>objects\obj_mayonaise_the_hero</object>
     <object>objects\obj_spike</object>
+    <object>objects\obj_portal</object>
+    <object>objects\obj_win</object>
+    <object>objects\obj_game_over</object>
+    <object>objects\obj_floating_mayonaise</object>
+    <object>objects\obj_jabzuni_title</object>
+    <object>objects\obj_lvl2</object>
+    <object>objects\obj_lvl3</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
-    <room>rooms\rm_testing</room>
+    <room>rooms\rm_1_menu</room>
+    <room>rooms\rm_2_level1</room>
+    <room>rooms\rm_3_trans</room>
+    <room>rooms\rm_4_level2</room>
+    <room>rooms\rm_5_trans</room>
+    <room>rooms\rm_6_level3</room>
+    <room>rooms\rm_win</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
