@@ -16,6 +16,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_portal</sprite>
+    <sprite>sprites\spr_game_over</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -35,11 +36,14 @@
     <object>objects\obj_spike</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_win</object>
+    <object>objects\obj_game_over</object>
+    <object>objects\obj_floating_mayonaise</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_testing</room>
     <room>rooms\rm_win</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

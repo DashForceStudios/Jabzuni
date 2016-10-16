@@ -1,3 +1,2 @@
-// later we'll go to a gameover screen instead
-// for now just restart the game
-game_restart();
+instance_destroy();
+room_goto(rm_game_over);
