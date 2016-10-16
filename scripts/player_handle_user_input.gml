@@ -3,6 +3,7 @@
 key_left = -keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
+key_jump_held = keyboard_check(vk_space);
 
 // React to keypresses
 player_move = key_left + key_right; 
@@ -21,11 +22,17 @@ if (vertical_speed < 10){
     vertical_speed += grav;
 }
 
+// Jump handling
 if (place_meeting(x, y+1, obj_wall)){
     vertical_speed = key_jump * -jumpspeed;
     if(key_jump) {
         audio_play_sound(smb_jump, 10, false);
     }
+}
+
+// Variable jump height
+if((vertical_speed < 0) && (!key_jump_held)){
+  vertical_speed = max(0, vertical_speed);
 }
 
 // floor collision handling

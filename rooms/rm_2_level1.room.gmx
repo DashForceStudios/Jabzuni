@@ -250,7 +250,6 @@
     <instance objName="obj_spike" x="1056" y="160" name="inst_E6BB5535" locked="0" code="" scaleX="-1.5" scaleY="4.5" colour="4294967295" rotation="270"/>
     <instance objName="obj_spike" x="1191" y="279" name="inst_FF19E95D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_spike" x="1114" y="376" name="inst_A80EF01A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_73EF6E29" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_spike" x="1127" y="568" name="inst_D38AF8B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_spike" x="1176" y="279" name="inst_68E2B8E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_spike" x="1112" y="567" name="inst_D0F2F98B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
