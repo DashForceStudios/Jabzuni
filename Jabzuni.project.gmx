@@ -18,6 +18,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_portal</sprite>
+    <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_jabzuni</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -38,6 +39,8 @@
     <object>objects\obj_spike</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_win</object>
+    <object>objects\obj_game_over</object>
+    <object>objects\obj_floating_mayonaise</object>
     <object>objects\obj_jabzuni_title</object>
     <object>objects\obj_lvl2</object>
     <object>objects\obj_lvl3</object>
@@ -50,6 +53,7 @@
     <room>rooms\rm_5_trans</room>
     <room>rooms\rm_6_level3</room>
     <room>rooms\rm_win</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
