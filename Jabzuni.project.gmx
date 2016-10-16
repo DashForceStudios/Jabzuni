@@ -6,13 +6,16 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\smb_jump</sound>
+    <sound>sound\snd_portal</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_walker</sprite>
     <sprite>sprites\spr_menu</sprite>
+    <sprite>sprites\spr_win</sprite>
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_portal</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,10 +33,13 @@
     <object>objects\obj_menu</object>
     <object>objects\obj_mayonaise_the_hero</object>
     <object>objects\obj_spike</object>
+    <object>objects\obj_portal</object>
+    <object>objects\obj_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_testing</room>
+    <room>rooms\rm_win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
