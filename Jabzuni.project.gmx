@@ -20,8 +20,6 @@
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_jabzuni</sprite>
-    <sprite>sprites\posters_1</sprite>
-    <sprite>sprites\posters_2</sprite>
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_box_l</sprite>
     <sprite>sprites\spr_box_r</sprite>
