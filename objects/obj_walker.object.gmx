@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Initialize variables
 
-hspeed = 2;
+hspeed = -2;
 gravity = 0;
 default_gravity = .2;
 walks_off_ledges = true;
@@ -75,6 +75,7 @@ if (place_meeting(x + hspeed, y - 1, obj_wall)){
       x += sign(hspeed);
     }
     hspeed *= -1;
+    image_xscale *= -1;
 }
 
 // Handling for walking off ledges
