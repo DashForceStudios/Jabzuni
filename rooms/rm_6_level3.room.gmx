@@ -105,7 +105,7 @@
     <instance objName="obj_mayonaise_the_hero" x="64" y="640" name="inst_81C05B48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="127" y="625" name="inst_B1CFD0F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spike" x="160" y="592" name="inst_2D50B7FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal" x="1184" y="544" name="inst_495F53E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal" x="1184" y="512" name="inst_495F53E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="320" y="416" name="inst_F87B0D17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="128" y="640" name="inst_7DDA9F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="160" y="608" name="inst_1994CCC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
