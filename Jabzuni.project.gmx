@@ -48,6 +48,11 @@
     <object>objects\obj_jabzuni_title</object>
     <object>objects\obj_lvl2</object>
     <object>objects\obj_lvl3</object>
+    <object>objects\obj_AA_credit</object>
+    <object>objects\obj_Bernmin_credit</object>
+    <object>objects\obj_GH_credit</object>
+    <object>objects\obj_JF_credit</object>
+    <object>objects\obj_JG_credit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1_menu</room>
