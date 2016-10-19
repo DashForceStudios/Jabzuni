@@ -10,8 +10,8 @@ player_move = key_left + key_right;
 horizontal_speed = player_move * movespeed;
 
 // Wall collision handling
-if (place_meeting(x + horizontal_speed, y - 1, obj_wall)){
-    while (!place_meeting(x + sign(horizontal_speed), y - 1, obj_wall)){
+if (place_meeting(x + horizontal_speed, y - 1, obj_block)){
+    while (!place_meeting(x + sign(horizontal_speed), y - 1, obj_block)){
       x += sign(horizontal_speed);
     }
     horizontal_speed = 0;
@@ -23,7 +23,7 @@ if (vertical_speed < 10){
 }
 
 // Jump handling
-if (place_meeting(x, y+1, obj_wall)){
+if (place_meeting(x, y+1, obj_block)){
     vertical_speed = key_jump * -jumpspeed;
     if(key_jump) {
         audio_play_sound(smb_jump, 10, false);
@@ -36,8 +36,8 @@ if((vertical_speed < 0) && (!key_jump_held)){
 }
 
 // floor collision handling
-if (place_meeting(x, y + vertical_speed, obj_wall)){
-    while (!place_meeting(x, y + sign(vertical_speed), obj_wall)){
+if (place_meeting(x, y + vertical_speed, obj_block)){
+    while (!place_meeting(x, y + sign(vertical_speed), obj_block)){
       y += sign(vertical_speed);
     }
     vertical_speed = 0;

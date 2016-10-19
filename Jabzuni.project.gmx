@@ -25,8 +25,19 @@
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_game_over</sprite>
     <sprite>sprites\spr_jabzuni</sprite>
+    <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_box_l</sprite>
+    <sprite>sprites\spr_box_r</sprite>
+    <sprite>sprites\spr_box_mid</sprite>
+    <sprite>sprites\spr_box</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_lights</background>
+    <background>background\background5</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+    <background>background\background4</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\player_handle_user_input.gml</script>
@@ -38,6 +49,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
+    <object>objects\obj_block</object>
     <object>objects\obj_walker</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_mayonaise_the_hero</object>
@@ -54,6 +66,9 @@
     <object>objects\obj_GH_credit</object>
     <object>objects\obj_JF_credit</object>
     <object>objects\obj_JG_credit</object>
+    <object>objects\obj_box_l</object>
+    <object>objects\obj_box_r</object>
+    <object>objects\obj_box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1_menu</room>

@@ -27,10 +27,11 @@
             <kind>1</kind>
             <string>/// Initialize variables
 
-hspeed = 2;
+hspeed = -2;
 gravity = 0;
 default_gravity = .2;
 walks_off_ledges = true;
+image_speed = 0.25;
 </string>
           </argument>
         </arguments>
@@ -56,29 +57,30 @@ walks_off_ledges = true;
             <string>/// Various handlers
 
 // Ground collision handling
-if (place_meeting(x, y + vspeed, obj_wall)){
+if (place_meeting(x, y + vspeed, obj_block)){
   gravity = 0;
-  while (!place_meeting(x, y + 1, obj_wall)){
+  while (!place_meeting(x, y + 1, obj_block)){
     y += sign(vspeed);
   }
   vspeed = 0;
 }
 
 // If the enemy isn't on the floor, turn on gravity
-if (!place_meeting(x - 1, y + 1, obj_wall) &amp;&amp; vspeed &lt; 1) {
+if (!place_meeting(x - 1, y + 1, obj_block) &amp;&amp; vspeed &lt; 1) {
   gravity = default_gravity;
 }
 
 // Wall collision handling
-if (place_meeting(x + hspeed, y - 1, obj_wall)){
-    while (!place_meeting(x + sign(hspeed), y - 1, obj_wall)){
+if (place_meeting(x + hspeed, y - 1, obj_block)){
+    while (!place_meeting(x + sign(hspeed), y - 1, obj_block)){
       x += sign(hspeed);
     }
     hspeed *= -1;
+    image_xscale *= -1;
 }
 
 // Handling for walking off ledges
-if (!walks_off_ledges &amp;&amp; !place_meeting(x + (sprite_width * sign(hspeed)), y + (sprite_height / 2) + 1, obj_wall)){
+if (!walks_off_ledges &amp;&amp; !place_meeting(x + (sprite_width * sign(hspeed)), y + (sprite_height / 2) + 1, obj_block)){
   hspeed *= -1;
 }
 </string>
