@@ -47,7 +47,7 @@ Fall into pit, run out of HP / be touched by enemy
 Joshua and Anthony
 
 **Sound / music**  
-Bernie
+Bernie, Jonathan
 
 **Art**  
 Gini
