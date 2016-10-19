@@ -9,9 +9,9 @@
     <sound>sound\snd_portal</sound>
     <sound>sound\snd_title_music</sound>
     <sound>sound\snd_game_over</sound>
+    <sound>sound\snd_music_level_3</sound>
     <sound>sound\snd_music_level_1</sound>
     <sound>sound\snd_music_level_2</sound>
-    <sound>sound\snd_music_level_3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
