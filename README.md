@@ -1,6 +1,6 @@
 # Jabzuni
 The world's most frustrating platformer, brought to you by GameMaker, 3 angry devs, and a music guy!
-![Alt text](jabzuni.png?raw=true)
+![Alt text](jabzuni-sample.png?raw=true)
 
 ## Design plan
 **Platformer**  
